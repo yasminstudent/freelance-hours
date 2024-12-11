@@ -13,7 +13,6 @@ use Livewire\Component;
 
 class Create extends Component
 {
-
     public Project $project;
     public bool $modal = false;
 
@@ -25,10 +24,8 @@ class Create extends Component
 
     public bool $agree = false;
 
-
     public function save()
     {
-
         $this->validate();
 
         if(!$this->agree){

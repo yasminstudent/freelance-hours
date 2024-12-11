@@ -7,7 +7,6 @@ use Livewire\Component;
 
 class Timer extends Component
 {
-
     public Project $project;
 
     public function render()

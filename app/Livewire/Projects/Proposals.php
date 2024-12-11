@@ -9,7 +9,6 @@ use Livewire\Component;
 
 class Proposals extends Component
 {
-
     public Project $project;
 
     public int $qty = 5;

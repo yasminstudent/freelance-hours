@@ -7,7 +7,6 @@ use Livewire\Component;
 
 class Teste extends Component
 {
-
     public string $search = '';
 
     public function render()
